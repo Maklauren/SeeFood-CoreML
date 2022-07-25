@@ -13,6 +13,7 @@
 		2362BEBC288AD8520019CF52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2362BEBA288AD8520019CF52 /* Main.storyboard */; };
 		2362BEBE288AD8540019CF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2362BEBD288AD8540019CF52 /* Assets.xcassets */; };
 		2362BEC1288AD8540019CF52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2362BEBF288AD8540019CF52 /* LaunchScreen.storyboard */; };
+		23FA5B53288EBD7900422D59 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 23FA5B52288EBD7900422D59 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2362BEBD288AD8540019CF52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2362BEC0288AD8540019CF52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2362BEC2288AD8540019CF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FA5B52288EBD7900422D59 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2362BEBD288AD8540019CF52 /* Assets.xcassets */,
 				2362BEBF288AD8540019CF52 /* LaunchScreen.storyboard */,
 				2362BEC2288AD8540019CF52 /* Info.plist */,
+				23FA5B52288EBD7900422D59 /* MobileNetV2.mlmodel */,
 			);
 			path = "SeeFood-CoreML";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				2362BEB9288AD8520019CF52 /* ViewController.swift in Sources */,
 				2362BEB5288AD8520019CF52 /* AppDelegate.swift in Sources */,
+				23FA5B53288EBD7900422D59 /* MobileNetV2.mlmodel in Sources */,
 				2362BEB7288AD8520019CF52 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +296,8 @@
 				DEVELOPMENT_TEAM = 4F5C4V5J4M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SeeFood-CoreML/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +326,8 @@
 				DEVELOPMENT_TEAM = 4F5C4V5J4M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SeeFood-CoreML/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
